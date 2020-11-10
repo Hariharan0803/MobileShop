@@ -1,0 +1,6 @@
+F:\WorkingProjects\MobileShop\MobileShop.BL\bin\Debug\MobileShop.BL.dll
+F:\WorkingProjects\MobileShop\MobileShop.BL\bin\Debug\MobileShop.BL.pdb
+F:\WorkingProjects\MobileShop\MobileShop.BL\obj\Debug\MobileShop.BL.csprojAssemblyReference.cache
+F:\WorkingProjects\MobileShop\MobileShop.BL\obj\Debug\MobileShop.BL.csproj.CoreCompileInputs.cache
+F:\WorkingProjects\MobileShop\MobileShop.BL\obj\Debug\MobileShop.BL.dll
+F:\WorkingProjects\MobileShop\MobileShop.BL\obj\Debug\MobileShop.BL.pdb

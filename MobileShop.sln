@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileShop", "MobileShop\MobileShop.csproj", "{33A93D8B-C3A9-4C2D-8DF6-69B10E8D0AC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileShop.UI", "MobileShop.UI\MobileShop.UI.csproj", "{709BE3FB-1939-42B2-8AD4-21A7BAF4FFDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileShop.BL", "MobileShop.BL\MobileShop.BL.csproj", "{108BD6B2-1DB8-4AF2-9867-4F603509E638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileShop.DAL", "MobileShop.DAL\MobileShop.DAL.csproj", "{5278D363-0076-4121-A225-FE04B5402BB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{33A93D8B-C3A9-4C2D-8DF6-69B10E8D0AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33A93D8B-C3A9-4C2D-8DF6-69B10E8D0AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33A93D8B-C3A9-4C2D-8DF6-69B10E8D0AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33A93D8B-C3A9-4C2D-8DF6-69B10E8D0AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{709BE3FB-1939-42B2-8AD4-21A7BAF4FFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{709BE3FB-1939-42B2-8AD4-21A7BAF4FFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{709BE3FB-1939-42B2-8AD4-21A7BAF4FFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{709BE3FB-1939-42B2-8AD4-21A7BAF4FFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{108BD6B2-1DB8-4AF2-9867-4F603509E638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108BD6B2-1DB8-4AF2-9867-4F603509E638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108BD6B2-1DB8-4AF2-9867-4F603509E638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108BD6B2-1DB8-4AF2-9867-4F603509E638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5278D363-0076-4121-A225-FE04B5402BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5278D363-0076-4121-A225-FE04B5402BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5278D363-0076-4121-A225-FE04B5402BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5278D363-0076-4121-A225-FE04B5402BB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
