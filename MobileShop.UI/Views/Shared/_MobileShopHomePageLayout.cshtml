@@ -25,21 +25,21 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="@Url.Action("HomePage","Home")">Logo</a>
+                <a class="navbar-brand" href="@Url.Action("Index","Home")">Logo</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("HOME", "HomePage", "Home")</li>
-                    <li>@Html.ActionLink("MOBILE", "MobileList", "Mobile")</li>
-                    <li>@Html.ActionLink("GADGET", "GadgetList", "Gadget")</li>
-                    <li>@Html.ActionLink("CONTACT", "Contact", "Contact")</li>
+                    <li>@Html.ActionLink("HOME", "Index", "Home")</li>
+                    <li>@Html.ActionLink("MOBILE", "Index", "Home")</li>
+                    <li>@Html.ActionLink("GADGET", "Index", "Home")</li>
+                    <li>@Html.ActionLink("CONTACT", "Index", "Home")</li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             MORE
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li>@Html.ActionLink("ENQUIRY", "Enquiry", "Enquiry")</li>
+                            <li>@Html.ActionLink("HomePage", "Index", "Home")</li>
                         </ul>
                     </li>
 
@@ -55,8 +55,8 @@
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li>@Html.ActionLink("REGISTER", "Register", "Account")</li>
-                            <li>@Html.ActionLink("LOGIN", "Login", "Account")</li>
+                            <li>@Html.ActionLink("REGISTER", "Index", "Home")</li>
+                            <li>@Html.ActionLink("LOGIN", "Index", "Home")</li>
                         </ul>
                     </li>
                 </ul>
@@ -156,11 +156,11 @@
 
                 <div class="footer-content">
                     <ul>
-                        <li>@Html.ActionLink("Home", "HomePage", "Home")</li>
-                        <li>@Html.ActionLink("Mobile","MobileList","Mobile")</li>
-                        <li>@Html.ActionLink("Gadget","GadgetList","Gadget")</li>
-                        <li>@Html.ActionLink("Contact","Contact","Contact")</li>
-                        <li>@Html.ActionLink("Enquiry","Enquiry","Enquiry")</li>
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Mobile", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Gadget", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Enquiry", "Index", "Home")</li>
                     </ul>
                 </div>
 
