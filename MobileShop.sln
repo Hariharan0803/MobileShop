@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileShop.UI", "MobileShop.UI\MobileShop.UI.csproj", "{709BE3FB-1939-42B2-8AD4-21A7BAF4FFDD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5278D363-0076-4121-A225-FE04B5402BB0} = {5278D363-0076-4121-A225-FE04B5402BB0}
+		{108BD6B2-1DB8-4AF2-9867-4F603509E638} = {108BD6B2-1DB8-4AF2-9867-4F603509E638}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileShop.BL", "MobileShop.BL\MobileShop.BL.csproj", "{108BD6B2-1DB8-4AF2-9867-4F603509E638}"
 EndProject
