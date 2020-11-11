@@ -72,9 +72,10 @@ h3, h4 {
 
 .thumbnail {
     /*padding: 0 0 15px 0;*/
-    border: none;
-    border-radius: 0;
+    /*border: none;*/
+    border-radius: 1px;
     margin: 0px;
+    border-color: #2d2d30;
 }
 
     .thumbnail p {
@@ -202,3 +203,26 @@ div#myCarousel, div.BodyContent {
     margin-top: 80px;
 }
 
+/*.bg-white{
+    background-color:white;
+}*/
+
+/*.thumbnail {
+    border-radius: 1px;
+    border-color: black;
+    margin: 0px;
+}*/
+
+.bg-mobile-shop {
+    background-color: #EAEDED;
+}
+
+.bg-mobile-shop > h1 {
+    /* padding: 0px; */
+    margin: 0px;
+}
+
+.bg-mobile-shop > h1:first-child {
+    /* padding: 0px; */
+    padding-top: 10px;
+}

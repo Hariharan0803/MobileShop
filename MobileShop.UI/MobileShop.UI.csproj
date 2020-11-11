@@ -212,7 +212,7 @@
     <Content Include="Content\Images\Slider\SliderImage5.png" />
     <Content Include="Content\Images\Slider\SliderImage6.png" />
     <Content Include="Content\Images\wishlist.png" />
-    <Content Include="Content\Testing.css" />
+    <Content Include="Content\Shop.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
